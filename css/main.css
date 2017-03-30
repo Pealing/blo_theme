@@ -1,0 +1,219 @@
+#main-wrapper{
+	background: url(../images/banner.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/*页头*/
+nav{
+	height: 50px;
+	margin: 0;
+	background-color: #21284B;
+	position: fixed;
+	z-index: 100000;
+	top:0px;
+	left: 0px;
+	right: 0px;
+}
+nav ul{
+	list-style: none;
+	margin: 0 auto;
+	float:right;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #fff; 
+}
+#login{
+	float: right;
+	display: inline-block;;
+	line-height: 50px;
+}
+#login button{
+	border:1px solid #fff;
+	border-radius: 20px;
+	background-color: transparent;
+	color: #fff;
+	margin-right: 20px;
+	padding: 5px 25px;
+}
+#start{
+	border: 0;
+	background:#333;
+	color: #eee;
+	padding: 14px 20px;
+}
+#logo{
+	float: left;inlin
+	display:inline-block;
+	line-height: 50px;
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px; 
+}
+#logo a{
+	color: #fff;
+	text-decoration: none;
+}
+#banner{
+	height: 580px;
+	background-color: rgba(0,0,0,0.4);
+}
+#banner .inner{
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 160px;
+}
+#banner .inner h1{
+	margin: 0;
+}
+#more{
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+	position: relative;
+	top:250px;
+}
+
+/*主页*/
+h2{
+	font-size: 25px;
+}
+.hr{
+	width: 100%;
+	height: 2px;
+	margin: 10px auto;
+}
+.greensection{
+	background-color: #089DB0;
+	color: #FFF;
+	padding: 100px 0;
+}
+.greensection .hr{
+	background-color: #078494;
+	width: 60%;
+}
+.greensection .icon-group .icon{
+	display: inline-block;
+	margin: 10px 30px;
+	width: 50px;
+	height: 50px;
+	background-color: #0D6F7C;
+	border: 1px solid #fff;
+	transform: rotate(45deg);
+}
+.wrapper{
+	text-align: center;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.graysection{
+	background-color: gray;
+
+}
+ .article-preview{
+	font-size: 0;/*去除图片间的缝隙*/
+} 
+.article-preview:nth-child(odd)
+{
+	/*选择器，给单数的部分加一个白色的蒙版*/
+	background-color: rgba(255,255,255,0.05);
+}
+.article-preview .img-section{
+	float: left;
+	width:45%;
+}
+.img-section img{
+	width: 100%;
+}
+.graysection .text-section{
+	width: 55%;
+	float: left;
+	text-align: center;
+	position: relative;
+	top:100px;
+	left:50px;
+}
+.clear{
+	clear:both;
+	display: block;
+}
+
+.purplesection{
+	padding: 80px;
+	background-color: #3F3965;
+	color: #fff;
+}
+.heading-wrapper{
+	text-align: center;
+}
+.purplesection .hr{
+	background:#373259;
+	width: 60%;
+
+}
+.card-group{
+
+}
+.card{
+	float: left;
+	width: 50%;
+	min-height:300px;
+	padding: 30px
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box; 
+}
+.card:first-child{
+	background-color: rgba(0,0,0,0.04);
+}
+.card:nth-child(2){
+	background-color: rgba(0,0,0,0.08);
+}
+.card:nth-child(3){
+	background-color: rgba(0,0,0,0.12);
+}
+.card:nth-child(4){
+	background-color: rgba(0,0,0,0.16);
+}
+.card:nth-child(5){
+	background-color: rgba(0,0,0,0.20);
+}
+.card:nth-child(6){
+	background-color: rgba(0,0,0,0.24);
+}
+footer{
+	background-color: #333;
+	height: 200px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+}
+footer ul{
+	margin:0 auto;
+}
+.share-group{
+	display: block;
+	width: 1080px;
+	margin: 0 auto;
+	padding: 50px;
+}
+.share-group li{
+	display: inline-block;
+	padding: 10px;
+}
+.copy{
+	padding-bottom: 20px;
+}
+/*页脚
